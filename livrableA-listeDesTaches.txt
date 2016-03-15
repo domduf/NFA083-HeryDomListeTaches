@@ -1,0 +1,199 @@
+Livrable A :
+Hery-Dom
+
+Liste des taches du mini projet :
+
+-Maquette fil de fer des pages accueil, catégorie A et produit 1 
+………………………………………………………………………………………………….……………………………………………………….3
+-Budget prévisionnel (nombre d'heures * 60 E + éventuel coûts annexes : NDD, hébergement, …) 
+……………………………………………………………………………………………………………………………………………………….....3
+-Graphique cumulé d'avancement des tâches par sprint par rapport au prévisionnel 
+………………………………………………………………………………………………………………………………………………………..…6
+-Mise en place du système GIT pour les 2 membres de l'équipe 
+…………………………………………………………………………………………………………………………………………………………..3
+
+-Création de la BDD avec au moins 3 tables :
+"user" avec au minimum 3 login (les 2 du binôme + mien : philippe, mdp : Phil-2016) 
+"contenu" avec les articles du site
+"message" avec les messages reçus
+…………………………………………….…………………………………………………………………………………………………………….6
+
+-Mise en ligne des pages Catégorie A et Catégorie B, plus 4 pages produits répartis dans les 2 catégories incluant au minimum (pour ces 6 pages) :
+- Titres, textes.
+- Une image par page (hors logo).
+- Menu principal et secondaire (ou sous-menu).
+- Pied de page : lien mentions légales + membres l'équipe.
+- Balises structurantes HTML5.
+en intégrant les zones communes avec include (PHP) 
+…………………………………………………………………………………..………………………………………………………………………6
+
+-Page d'accueil avec au moins
+- Logo,
+- Menu,
+- Présentation du site 
+……………………………………….………………………………………………………………………………………………………………….6
+
+Définir les 3 expressions clés des 3 pages optimisées pour le référencement : accueil (expression clé : nom du site), une catégorie (expression clé à préciser), une page article (expression clé à préciser)
+…………………………………………………………………………………………………………………………………………………………..3
+
+Page mentions légales 
+…………………………………………………………………………………………………………………………………………………………..3
+
+Fichier "styles.css" pour les styles et les templates des
+pages du site responsive (version PC bureau et mobile).
+…………………………………………………………………………………………………………………………………………………………..6
+
+
+Page "contact.php" : Formulaire de Contact avec
+- Nom prénom (1 seul champ, mais obligatoire).
+- Liste à puces "sujet du message" (demande de contact,
+demande d'information, suggestion d'amélioration).
+- Message (obligatoire)
+- Email (obligatoire)
+- Boutons "Annuler" et "Envoyer"
+…………………………………………………………………………………………………………………………………………………………..6
+
+Page "Accueil" (fichier index.php) avec au minimum
+- Titre
+- Logo + favicon (fichier "favicon.ico" )
+- Edito (présentation du site, public(s) visés)
+- Menu et pied de page.
+…………………………………………………………………………………………………………………………………………………………..3
+
+
+Page Contact : Insertion Google Map (Localisation) : JS 
+…………………………………………………………………………………………………………………………………………………………..3
+
+Création des fichiers sitemap.ml,
+robots.tt et
+.htaccess (dont redirection du www vers sans www)
+…………………………………………………………………………………………………………………………………………………………..3
+
+Contrôle du formulaire de contact dans fichier contact.php
+- Nom : sécurisation en PHP + transformation en majuscules (en
+PHP ou JS) + ma 50 caractères (en HTML)
+- Message : Sécurisation avec PHP
+- Email : bon format (fichier contact.js).
+…………………………………………………………………………………………………………………………………………………………..6
+
+Page de connexion au back (fichier connexion.php) : lien dans
+le pied de page
+…………………………………………………………………………………………………………………………………………………………..3
+
+Affichage bouton "connexion" en haut à droite
+ou pseudo + bouton "logout" si connecté.
+…………………………………………………………………………………………………………………………………………………………..6
+
+backOffice (si connexion en tant qu'administrateur OK) :
+- liste des contenus avec lien vers formulaire de modification.
+- liste des messages reçus.
+…………………………………………………………………………………………………………………………………………………………..3
+
+Création bouton + fichier CSV de la liste actualisée des messages
+reçus via le formulaire
+…………………………………………………………………………………………………………………………………………………………..6
+
+Affichage bienvenue en haut à droite si premier passage sur une
+page (grâce cookie)
+…………………………………………………………………………………………………………………………………………………………..6
+
+Mise en page responsive : du format PC de bureau au mobile avec
+modification du colonage, adaptation tailles des textes et images
+…………………………………………………………………………………………………………………………………………………………..3
+
+Page "mentions-legales.php" : Mentions légales. 
+…………………………………………………………………………………………………………………………………………………………..3
+
+Sur page "contact.php" message de confirmation "Message
+envoyé + heure de réception message (serveur PHP, après envoie
+du message en BDD).
+…………………………………………………………………………………………………………………………………………………………..3
+
+Liste des messages disponibles sur page "messages.php"
+(accessible uniquement si connecté en administrateur)
+…………………………………………………………………………………………………………………………………………………………..6
+ 
+copie d'écran SERP Google des 3 pages indexées (Accueil,
+catégorie A, produit 1)
+…………………………………………………………………………………………………………………………………………………………..3
+
+copies d'écran page Google Web Master Tools, Google Analitics,
+Google Adwords
+…………………………………………………………………………………………………………………………………………………………..3
+
+Coût estimé des requêtes adwords pour les pages catégorie A et
+produit 1
+…………………………………………………………………………………………………………………………………………………………..3
+
+Vérification des scénarios de test OK 
+…………………………………………………………………………………………………………………………………………………………..6
+
+Analyse W3C de la page d'accueil (copie d'écran) 
+…………………………………………………………………………………………………………………………………………………………..3
+
+Analyse vitesse d'affichage page d'accueil via :
+https://www.dareboost.com/fr (copie écran)
+…………………………………………………………………………………………………………………………………………………………..3
+
+Analyse référencement :http://seositecheckup.com/ (copie écran) 
+…………………………………………………………………………………………………………………………………………………………..3
+
+Petit document "client" comprenant tutoriel de saisie d'un nouvel
+article + carte des liens entre les pages du site
+…………………………………………………………………………………………………………………………………………………………..6
+
+Bilan financier (nombre d'heures passées et autres frais) 
+…………………………………………………………………………………………………………………………………………………………..6
+
+Graphique bilan d'avancement du réalisé des tâches par sprint 
+…………………………………………………………………………………………………………………………………………………………..3
+
+Dossier Personnel (DP) dont commentaires sur
+- Planning réalisé, problèmes majeurs rencontrés, solutions trouvées
+et éventuellement, éléments du cahier des charges non validés (à
+répondre sur questionnaire qui sera fourni).
+…………………………………………………………………………………………………………………………………………………………..3
+
+
+
+9/ Liste des tâches des 2 premiers sprints (15 jours) Agile avec pondération totale
+Sprint A (du 18/03/2016 au 01/04/2016)
+1-Maquette fil de fer des pages accueil, catégorie A et produit 1 
+2 -Budget prévisionnel (nombre d'heures * 60 E + éventuel coûts annexes : NDD, hébergement, …)
+3-Graphique cumulé d'avancement des tâches par sprint par rapport au prévisionnel
+4-Mise en place du système GIT pour les 2 membres de l'équipe
+5- Création de la BDD avec au moins 3 tables :
+"user" avec au minimum 3 login
+(les 2 du binôme + mien : philippe, mdp : Phil-2016)
+"contenu" avec les articles du site
+"message" avec les messages reçus
+6-Mise en ligne des pages Catégorie A et Catégorie B, plus 4 pages produits répartis dans les 2 catégories incluant au minimum (pour ces 6 pages) :
+- Titres, textes.
+- Une image par page (hors logo).
+- Menu principal et secondaire (ou sous-menu).
+- Pied de page : lien mentions légales + membres l'équipe.
+- Balises structurantes HTML5 en intégrant les zones communes avec include (PHP)
+Pondération total estimé (21)
+Pondération total max (60)
+Sprint B (du 02/04/2016 au 16/04/2016)
+1-Page d'accueil avec au moins
+- Logo,
+- Menu,
+- Présentation du site
+2- Définir les 3 expressions clés des 3 pages optimisées pour le référencement : accueil (expression clé nom du site), une catégorie (expression clé à préciser), une page article (expression clé à préciser)
+3-Page mentions légales 
+4 -Fichier "styles.css" pour les styles et les templates des pages du site responsive (version PC bureau et mobile).
+5 -Page "contact.php" : Formulaire de Contact avec
+- Nom prénom (1 seul champ, mais obligatoire).
+- Liste à puces "sujet du message" (demande de contact, demande d'information, suggestion d'amélioration).
+- Message (obligatoire)
+- Email (obligatoire)
+- Boutons "Annuler" et "Envoyer"
+6 - Page "Accueil" (fichier index.php) avec au minimum
+- Titre
+- Logo + favicon (fichier "favicon.ico" )
+- Edito (présentation du site, public(s) visés)
+- Menu et pied de page.
+Pondération total estimé (27)
+Pondération total max (60)
+
