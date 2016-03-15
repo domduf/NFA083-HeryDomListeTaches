@@ -3,7 +3,7 @@ pour se faire la main avec Hery
 
 Salut Hery
 
-je te recommande de lire au mouins le début de
+je te recommande de lire au moins le début de
 
 https://git-scm.com/book/fr/v2/D%C3%A9marrage-rapide-%C3%80-propos-de-la-gestion-de-version
 
