@@ -1,0 +1,41 @@
+Bonsoir Hery et Philippe
+
+Ci dessous le lien pour le projet partagé de repartition des tâches qu'Hery a préparé et suggéré.
+
+Je mets en copie à Philippe, si jamais on fait fausse route, merci de nous prévenir.
+
+LE LIEN:
+https://github.com/domduf/NFA083-HeryDomListeTaches.git
+
+Hery ce que j'ai compris de Git:
+
+-tu vas sur GitHub
+-tu te créés un compte--> tu as un log et un mdp
+-sur ton ordi il faut installer Git voir là: https://git-scm.com/book/fr/v1/D%C3%A9marrage-rapide-Installation-de-Git
+-tu lis au moins le début de https://git-scm.com/book/fr/v1/D%C3%A9marrage-rapide
+-dans ton repertoire de travail CNAM083, si tu en as un, tu fais un "git clone" de notre projet de répartition des tâches,
+c'est à dire, en ligne de commande (je ne connais pas l'interface graphique):
+
+git clone  https://github.com/domduf/NFA083-HeryDomListeTaches.git
+
+et là oh joie, oh miracle le dossier distant de GitHub se retrouve sur ton ordi où tu peut bosser tranquillou, les pieds dans tes chaussons favoris !!!
+
+-tu vas dans ce repertoire et tu changes ou tu ajoutes des H sur les lignes qui correspondent aux tâches que tu veux faire.
+
+- quand tu as terminé et sauveardé tes modifs, tu fais un "git status" qui te montre que tu as modifié un fichier (chez moi ça montre les fichiers en rouge)
+
+-comme tu veux que ta modif soit prise en compte tu fais un "git add nomDuFichierModifie"
+
+-puis un "git comit" pour demander à ce que les modifs soient prisent en compte.
+
+-et enfin tu PUSH sur le dossier distant (celui sur GitHub) avec la commande "git push" qui te demanderas ton log et ton mdp
+
+-sur GitHub, le dossier est normalement à jour de tes modif.
+
+Après il  a possibilité de créer des "branches" de modif, mais là j'ai pas encore creusé (la branche...) tu peux aussi remonter le temps des modifications etc
+
+Allez bon courage je pense que git vaut le coup de bosser dessus ça m'a l'air PUISSANT.
+
+Ton binôme préféré et attentionné.
+Dom.
+
